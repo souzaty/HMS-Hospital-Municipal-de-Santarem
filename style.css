@@ -1,0 +1,112 @@
+/*
+ Theme Name:     HMS
+ Author:         SMART7 Digital
+ Author URI:     http://smart7.com.br
+ Template:       Divi
+ Version:        1.0
+ Description:   A Child Theme built using the elegantmarketplace.com Child theme maker
+Developed by Andrew Palmer for Elegant Marketplace www.elegantmarketplace.com Free to use and duplicate as many times as you like
+ Wordpress Version: 4.9.5
+*/
+
+
+/* ----------- PUT YOUR CUSTOM CSS BELOW THIS LINE -- DO NOT EDIT ABOVE THIS LINE --------------------------- */
+.et_pb_fullwidth_header .header-content {
+    padding: 0;
+}
+/* ----------- Top Header ----------- */
+#top-header {
+    background: #033963;
+}
+#top-header>.container {
+    margin: 0 auto !important;
+}
+div#et-info {
+    float: right;
+}
+span#et-info-email, span#et-info-phone {
+    color: #fff;
+}
+span#et-info-phone:before, span#et-info-email:before {
+    display: none;
+}
+span#et-info-email:after {
+    content: "|";
+    padding: 0 10px;
+}
+/* ----------- Font ----------- */
+h1, h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h5, h6 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/* blog */
+.et_pb_post {
+    margin-bottom: 0 !important;
+}
+/* ----------- Remove bootstrap configuration ----------- */
+.nav>li>a:focus, .nav>li>a:hover {
+    background: transparent !important;
+}
+/* Home title */
+.home-title {
+    color: #033963;
+    padding-bottom: 30px;
+}
+.home-title:before {
+    width: 35px;
+    height: 35px;
+    content: '';
+    margin-right: 15px;
+    background: url(http://hmsantarem.org.br/wp-content/themes/hms/images/hms_h1_before.svg);
+    background-size: contain;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+/* Home Section O Hospital */
+.list-home {
+    font-size: 0.9em;
+}
+ul.list-home {
+    list-style: none;
+    color: #033963;
+}
+.list-home li:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #9cacc0;
+    margin-right:10px;
+}
+/* Home Section Notícias */
+.entry-title, .post-meta, .post-content {
+    margin: 0 0 10px 0;
+}
+/* Form home */
+.hms-form_home {
+    padding-bottom: 15px;
+    box-shadow: none;
+}
+input#fld_8440249_1, input#fld_4308263_1, input#fld_1578441_1, input#fld_3238839_1, textarea#fld_4178430_1 {
+    background: transparent;
+    border: 2px solid #9cacc0;
+    border-radius: 0;
+    padding: 20px 25px;
+    font-size: 1.2em;
+}
+input#fld_963833_1 {
+    background: #17b8f3;
+    border: 1px solid #17b8f3;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
